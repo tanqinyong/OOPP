@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>login</title>
+    <style>
+        body {
+            background-color: #f4511e;
+        }
+        #login {
+            background-color: white;
+            height:500px;
+            width:900px;
+            margin: auto;
+            margin-top:100px;
+            border-radius:20px;
+            box-shadow: 0 0 0.2em 0.2em #ccc;
+        }
+        #description {
+            float:left;
+            height:500px;
+            width:250px;
+        }
+        #productDesc {
+            font-size: 15px;
+            margin:20px;
+        }
+        #productDescBox {
+            width:200px;
+            margin-left:30px;
+        }
+        #loginside {
+            width:700px;
+            height:500px;
+        }
+        #idpass {
+
+        }
+    </style>
+</head>
+<body>
+<div id="login" class="container">
+    <div id="description" class="container">
+        <img src="iCAre.jpeg" style="float:left;height:200px;width:250px;" />
+        <div id="productDescBox">
+        <p id="productDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam auctor, nisl posuere blandit egestas,sim justo nibh a eros. tae accumsan enim feugiat.</p>
+        </div>
+    </div>
+    <img src="https://www.bforball.com/images/geometry/vertical-line.png" style="float:left;height:500px;width:50px;"/>
+    <div id="loginside">
+        <br> <br> <br>
+        <h1 > Login </h1>
+        <h3 style="display:inline;"> We will need... </h3> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        <button type="button" class="btn btn-primary" style="display:inline;width:80px;text-align:center;">Staff</button>
+        <button type="button" class="btn btn-success" style="display:inline;width:80px;text-align:center;">Patient</button>
+        <div id="idpass">
+            <h2> ID: </h2> <input type="text" size="30" placeholder="Your ID...">
+            <h2> Password: </h2> <input type="text" size="30" placeholder="Your password..."> <br> <br>
+            <button type="button" class="btn btn-success" style="width:80px;">Submit</button>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
